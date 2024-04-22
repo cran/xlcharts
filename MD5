@@ -1,6 +1,7 @@
-72a76e845961c3c0fc24695fa7cf0ffe *DESCRIPTION
+c2e65c1b1857260a3b77917ea82c44fe *DESCRIPTION
 ce06876ccde4a0b5350f7be391056957 *LICENSE
 330b5fb02b177302a74f240665c49407 *NAMESPACE
+8effee786567995ee39a3ba5c3055fc2 *NEWS.md
 1598a331f22f516eb38821bdf8205133 *R/AbsoluteAnchor.R
 071784ccfda1dd023ebab406ee8b6943 *R/AdjPoint2D.R
 1b2bdcf8d3c7b48a3df7334b18018ec5 *R/AdjustHandleList.R
@@ -391,7 +392,7 @@ fecf8a2a684f71eb0c491055dd413ecc *R/utils-write_xlsx.R
 b00f5cef01f3268237e076522b0e77df *R/x_axis.R
 3d136ce765e26659f13f62f4052307e1 *R/y_axis.R
 54586b8e4ae725dddd2c7fc2172f37b1 *R/zzz.R
-5caba5677cf0089e73ef17d90649c2ad *README.md
+a1c33f1a9af3a0d5f8a87fcd3fc48472 *README.md
 c5314d053c8b93e865c04c16efbaf7ab *inst/AUTHORS
 0b57b6ffcdbe19cef3ca3fa151900ac1 *inst/COPYRIGHT
 801dc3c5b1a27d9dfdccc672a38975bd *inst/extdata/logo.png
@@ -759,6 +760,7 @@ b4dbffd0a5ec78ca4afbebb08ddd484c *man/deepcopy.Rd
 c43a1b883ae3957652576a60e8fc6da3 *man/degrees_to_angle.Rd
 798e8a8b530b7308fbfaf83ae255552c *man/dxa_to_cm.Rd
 72cc9972cc4fc3d9a17d76d837b5f98b *man/expand_cell_ranges.Rd
+801dc3c5b1a27d9dfdccc672a38975bd *man/figures/logo.png
 ca8f64fc110ad38e86d70a4f920cc3a5 *man/figures/treedata-bar.png
 02352235dd9ffe35b4ef9c4128e45fcf *man/figures/treedata-raw.png
 9ac7531a58eee58d2afe30f4e8ccf999 *man/figures/treedata-references.png

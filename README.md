@@ -3,13 +3,14 @@
 **xlcharts, an R interface to OpenPyXL to create native Excel charts and work with Microsoft Excel files.**
 
 <!-- badges: start -->
-[![CRAN
-status](https://www.r-pkg.org/badges/version/xlcharts)](https://CRAN.R-project.org/package=xlcharts)
-[![Grand
-total](https://cranlogs.r-pkg.org/badges/grand-total/xlcharts)](https://cran.r-project.org/package=xlcharts)
+[![CRAN status](https://www.r-pkg.org/badges/version/xlcharts)](https://CRAN.R-project.org/package=xlcharts)
+[![Grand total](https://cranlogs.r-pkg.org/badges/grand-total/xlcharts)](https://cran.r-project.org/package=xlcharts)
+[![R-CMD-check](https://github.com/lgnbhl/xlcharts/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/lgnbhl/xlcharts/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 - **Author**: Félix Luginbühl (<https://felixluginbuhl.com>)
+- **Source code**: <https://github.com/lgnbhl/xlcharts>
+- **Issues**: <https://github.com/lgnbhl/xlcharts/issues>
 
 ## Introduction
 
@@ -73,6 +74,17 @@ with the functions of the R package.
 #reticulate::use_virtualenv("~/pythonenvs/userenv")
 ```
 
+If you failed to install "openpyxl" with "xlcharts" functions, you can try using the "reticulate" R package:
+
+``` r
+reticulate::install_python()
+```
+
+Once Python is installed in your machine, you can install "openpyxl" from the terminal:
+
+```
+python3 -m pip install openpyxl
+```
 
 ## Create a workbook
 
@@ -179,7 +191,7 @@ ws |> add_chart(chart, anchor =  "E1")
 And finally save the workbook as an Excel file.
 
 ``` r
-wb |> save_workbook("TreeData.xlsx")
+wb |> save_workbook("treeData.xlsx")
 ```
 
 <img src="man/figures/treedata-bar.png" alt="Excel file screenshot of 
